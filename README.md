@@ -1,2 +1,6 @@
 # Data-Structure-And-Algorithms-Learning
-This repository was created to collect all knowledges about DS and Algorithms.
+
+## Summary
+
+##### 1. <a src=Algorithms/Big-O.md>Big-O нотация</a>
+

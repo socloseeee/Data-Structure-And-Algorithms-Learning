@@ -2,5 +2,5 @@
 
 ## Summary
 
-##### 1. <a link=Algorithms/Big-O.md>Big-O нотация</a>
+##### 1. <a href=Algorithms/Big-O.md>Big-O нотация</a>
 

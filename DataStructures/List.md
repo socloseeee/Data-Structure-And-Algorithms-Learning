@@ -1,4 +1,4 @@
-![img.png](assets/img_2.png)
+![img.png](assets/List/img_2.png)
 
 > Элемент списка содержит указатель на следующий/предыдущий элемент и само значение.
 
@@ -6,4 +6,4 @@
  
 > Не фиксированный размер 
 
-![img_1.png](assets/img_3.png)
+![img_1.png](assets/List/img_3.png)

@@ -6,4 +6,4 @@
 ##### 2. <a href=DataStructures/Array.md>Массивы</a>
 ##### 3. <a href=DataStructures/List.md>Списки</a>
 ##### 4. <a href=DataStructures/Stack.md>Стеки</a>
-##### 4. <a href=DataStructures/Queue.md>Очереди</a>
+##### 5. <a href=DataStructures/Queue.md>Очереди</a>

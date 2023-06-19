@@ -21,7 +21,7 @@
 
 ![img_1.png](assets/Stack/img_5.png)
 
-> <a href=solvings/Stack/BracketClose.py>Решение</a>
+> <a href=solvings/Stack/BracketClose.py>Решение со встроенным двусвязным списком</a>
 
 ```python
 class Stack:
@@ -38,10 +38,46 @@ class Stack:
         return self.items.pop()
 
     def peek(self):
-        return self.items[len(self.items)-1]
+        return self.items[len(self.items) - 1]
 
     def size(self):
         return len(self.items)
+```
+
+> Решение через nod'ы (элементы со значением + ссылкой на следующий элемент, по-сути односвязный список)
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+
+class Stack:
+    def __init__(self):
+        self.top = None
+
+    def push(self, item):
+        new_node = Node(item)
+        new_node.next = self.top
+        self.top = new_node
+
+    def pop(self):
+        if self.top is None:
+            return None
+        else:
+            item = self.top.data
+            self.top = self.top.next
+            return item
+
+    def peek(self):
+        if self.top is None:
+            return None
+        else:
+            return self.top.data
+
+    def is_empty(self):
+        return self.top is None
     
 
 def IsBalanced(sequence: str) -> bool:

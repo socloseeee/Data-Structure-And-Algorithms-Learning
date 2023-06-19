@@ -7,3 +7,9 @@
 > Фиксированный размер
 
 ![img_1.png](assets/Array/img_1.png)
+
+```python
+import array
+
+array.array
+```

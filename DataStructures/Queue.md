@@ -1,8 +1,8 @@
-![img.png](img.png)
+![img.png](assets/Queue/img.png)
 
-![img_1.png](img_1.png)
+![img_1.png](assets/Queue/img_1.png)
 
-![img_2.png](img_2.png)
+![img_2.png](assets/Queue/img_2.png)
 
 > Реализация
 
@@ -42,7 +42,7 @@ class Queue:
 
 > Задача
 
-![img_3.png](img_3.png)
+![img_3.png](assets/Queue/img_3.png)
 
 > <a href=solvings/Queue/WindowSlideMinimum.py>Решение на питоне с подручными методами</a>
 

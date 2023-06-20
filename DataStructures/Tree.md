@@ -31,17 +31,27 @@ def PrintTree(node):
 
 ```python
 class Node:
-    def __init__(self, head=None, val: int = None):
-        self.head = head
-        self.val = val
-        self.left = None
-        self.right = None
+    def __init__(self, val: int = None):
+        self.value = val
+        self.left_child = None
+        self.right_child = None
 
-    def set_left(self, left):
-        self.left = left
 
-    def set_right(self, right):
-        self.right = right
+class BinaryTree:
+    def __init__(self):
+        self.root = None
+
+    @staticmethod
+    def insert_left(parent_node, value):
+        new_node = Node(value)
+        parent_node.left_child = new_node
+        return new_node
+
+    @staticmethod
+    def insert_right(parent_node, value):
+        new_node = Node(value)
+        parent_node.right_child = new_node
+        return new_node
 ```
 
 > Реализация Бинарного Дерева Поиска
